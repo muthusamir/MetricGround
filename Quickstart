@@ -1,0 +1,2 @@
+Train:python src/train.py --config-name default
+Evaluate:python src/evaluate.py --ckpt_path logs/best_model.ckpt --dataset nuscenes-spatialqa
